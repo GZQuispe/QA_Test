@@ -47,3 +47,15 @@ def static "homePage.ListOfItemsSection.verifyItemIsUpdated"(
     (new homePage.ListOfItemsSection()).verifyItemIsUpdated(
         	text)
 }
+
+def static "homePage.ListOfItemsSection.deleteNewestItem"() {
+    (new homePage.ListOfItemsSection()).deleteNewestItem()
+}
+
+def static "homePage.ListOfItemsSection.verifyItemDeleted"(
+    	String filepath	
+     , 	String text	) {
+    (new homePage.ListOfItemsSection()).verifyItemDeleted(
+        	filepath
+         , 	text)
+}

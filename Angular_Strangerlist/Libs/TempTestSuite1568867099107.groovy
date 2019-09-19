@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190919_004443\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190919_012459\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/QA_Test', suiteProperties, [new TestCaseBinding('Test Cases/TC2_Edit_Another_Existing_Item', 'Test Cases/TC2_Edit_Another_Existing_Item',  null)])
+TestCaseMain.startTestSuite('Test Suites/QA_Test', suiteProperties, [new TestCaseBinding('Test Cases/TC1_Create_An_Item', 'Test Cases/TC1_Create_An_Item',  null), new TestCaseBinding('Test Cases/TC2_Edit_Another_Existing_Item', 'Test Cases/TC2_Edit_Another_Existing_Item',  null), new TestCaseBinding('Test Cases/TC3_Delete_The_Item_Created', 'Test Cases/TC3_Delete_The_Item_Created',  null)])

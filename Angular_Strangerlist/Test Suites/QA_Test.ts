@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>34693821-7093-4142-a314-add7322a7db2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC1_Create_An_Item</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,6 +38,24 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>afc290ca-5627-4a04-80cf-bc8494071e6f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab23c156-eb0a-4f50-96ef-8452af493f71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC3_Delete_The_Item_Created</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14c776dc-630e-4cd0-822d-d5f340272965</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6b164c3e-6da5-492b-9367-8aa83d0e67e4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

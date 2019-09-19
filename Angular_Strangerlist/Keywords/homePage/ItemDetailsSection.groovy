@@ -48,7 +48,7 @@ public class ItemDetailsSection {
 	def clickUpdateItemButton(){
 		WebUI.verifyElementClickable(BUTTON_UPDATE_ITEM)
 		WebUI.click(BUTTON_UPDATE_ITEM)
-		WebUI.waitForElementVisible(BUTTON_CREATE_ITEM, GlobalVariable.DEFAULT_WAIT)
+		WebUI.waitForElementNotPresent(BUTTON_UPDATE_ITEM, GlobalVariable.DEFAULT_WAIT)
 		WebUI.takeScreenshot()
 	}
 }
