@@ -23,6 +23,7 @@ public class ItemDetailsSection {
 	private static final TestObject BUTTON_CHOOSE_FILE = findTestObject('Object Repository/HomePage/ItemDetailsSections/Button_Choose_File')
 	private static final TestObject INPUT_TEXT_AREA	   = findTestObject('Object Repository/HomePage/ItemDetailsSections/Input_Text_Area')
 	private static final TestObject BUTTON_CREATE_ITEM = findTestObject('Object Repository/HomePage/ItemDetailsSections/Button_Create_Item')
+	private static final TestObject BUTTON_UPDATE_ITEM = findTestObject('Object Repository/HomePage/ItemDetailsSections/Button_Update_Item')
 
 	@Keyword
 	def attachImage(String filePath){
@@ -37,9 +38,17 @@ public class ItemDetailsSection {
 	}
 
 	@Keyword
-	def clickButtonCreateItem(){
+	def clickCreateItemButton(){
 		WebUI.verifyElementClickable(BUTTON_CREATE_ITEM)
 		WebUI.click(BUTTON_CREATE_ITEM)
+		WebUI.takeScreenshot()
+	}
+
+	@Keyword
+	def clickUpdateItemButton(){
+		WebUI.verifyElementClickable(BUTTON_UPDATE_ITEM)
+		WebUI.click(BUTTON_UPDATE_ITEM)
+		WebUI.waitForElementVisible(BUTTON_CREATE_ITEM, GlobalVariable.DEFAULT_WAIT)
 		WebUI.takeScreenshot()
 	}
 }

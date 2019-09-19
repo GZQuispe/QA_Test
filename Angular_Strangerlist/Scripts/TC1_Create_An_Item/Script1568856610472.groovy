@@ -4,6 +4,6 @@ CustomKeywords.'homePage.ItemDetailsSection.attachImage'(itemImageFilePath)
 
 CustomKeywords.'homePage.ItemDetailsSection.enterText'(itemDescription)
 
-CustomKeywords.'homePage.ItemDetailsSection.clickButtonCreateItem'()
+CustomKeywords.'homePage.ItemDetailsSection.clickCreateItemButton'()
 
 CustomKeywords.'homePage.ListOfItemsSection.verifyNewItemCreated'(itemImageFilePath, itemDescription)

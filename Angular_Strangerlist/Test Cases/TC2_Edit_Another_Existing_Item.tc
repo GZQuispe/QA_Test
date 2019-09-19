@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6effc24f-c93f-46e5-9b1e-7968c44250db</testCaseGuid>
+   <variable>
+      <defaultValue>'New Description'</defaultValue>
+      <description></description>
+      <id>afc290ca-5627-4a04-80cf-bc8494071e6f</id>
+      <masked>false</masked>
+      <name>newDescription</name>
+   </variable>
 </TestCaseEntity>
