@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e607ba7d-360b-4eea-84e3-b98e9e702c96</testCaseGuid>
+   <variable>
+      <defaultValue>'Creators: Matt Duffer, Ross Duffer'</defaultValue>
+      <description></description>
+      <id>b47fa502-e2cd-4c46-a820-34aa21762e54</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
 </TestCaseEntity>

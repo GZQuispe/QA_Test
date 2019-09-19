@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>7b081f5e-12c1-46c9-a4f7-c1892be3d6dd</testSuiteGuid>
+   <testSuiteGuid>b522232a-124b-438f-b9b8-6aca15357dc8</testSuiteGuid>
    <testCaseLink>
-      <guid>34693821-7093-4142-a314-add7322a7db2</guid>
+      <guid>d545f9cf-61d9-4616-9f34-2be5c9f08f13</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC1_Create_An_Item</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -29,9 +29,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2119949-5860-4204-bda8-4380cb861aad</guid>
+      <guid>73281459-3b70-46b1-b931-c1e3f9e5980f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC2_Edit_Another_Existing_Item</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -41,9 +41,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab23c156-eb0a-4f50-96ef-8452af493f71</guid>
+      <guid>437673f2-d74b-4208-92ea-b3d9359ecb8c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC3_Delete_The_Item_Created</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -59,7 +59,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>23643243-85aa-4a78-981e-b80a263993dc</guid>
+      <guid>344da193-7efc-4437-9fb8-97d6b9d3d89c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC4_Check_Max_Long_In_Description</testCaseId>
@@ -71,15 +71,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>17b37f5b-b9d6-437a-8e1a-5642c983ac5a</guid>
+      <guid>a925bf78-84b5-4694-b24f-0ce160a1d1c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC4_Check_Max_Long_In_Description</testCaseId>
+      <testCaseId>Test Cases/TC5_Check_If_Exists_In_The_List_The_Item_With_Text</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>818a2ed7-0f15-4b3c-84f7-4eca994ebc36</variableId>
+         <variableId>b47fa502-e2cd-4c46-a820-34aa21762e54</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

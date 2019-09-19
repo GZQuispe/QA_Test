@@ -63,3 +63,9 @@ def static "homePage.ListOfItemsSection.verifyItemDeleted"(
         	filepath
          , 	text)
 }
+
+def static "homePage.ListOfItemsSection.verifyIfItemWithTextExists"(
+    	String text	) {
+    (new homePage.ListOfItemsSection()).verifyIfItemWithTextExists(
+        	text)
+}

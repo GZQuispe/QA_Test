@@ -49,6 +49,7 @@ public class ItemDetailsSection {
 		WebUI.verifyElementClickable(BUTTON_UPDATE_ITEM)
 		WebUI.click(BUTTON_UPDATE_ITEM)
 		WebUI.waitForElementNotPresent(BUTTON_UPDATE_ITEM, GlobalVariable.DEFAULT_WAIT)
+		WebUI.verifyElementVisible(BUTTON_CREATE_ITEM)
 		WebUI.takeScreenshot()
 	}
 	

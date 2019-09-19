@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190919_012821\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190919_021743\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/QA_Test', suiteProperties, [new TestCaseBinding('Test Cases/TC1_Create_An_Item', 'Test Cases/TC1_Create_An_Item',  null), new TestCaseBinding('Test Cases/TC2_Edit_Another_Existing_Item', 'Test Cases/TC2_Edit_Another_Existing_Item',  null), new TestCaseBinding('Test Cases/TC3_Delete_The_Item_Created', 'Test Cases/TC3_Delete_The_Item_Created',  null)])
+TestCaseMain.startTestSuite('Test Suites/QA_Test', suiteProperties, [new TestCaseBinding('Test Cases/TC1_Create_An_Item', 'Test Cases/TC1_Create_An_Item',  null), new TestCaseBinding('Test Cases/TC2_Edit_Another_Existing_Item', 'Test Cases/TC2_Edit_Another_Existing_Item',  null), new TestCaseBinding('Test Cases/TC3_Delete_The_Item_Created', 'Test Cases/TC3_Delete_The_Item_Created',  null), new TestCaseBinding('Test Cases/TC4_Check_Max_Long_In_Description', 'Test Cases/TC4_Check_Max_Long_In_Description',  null), new TestCaseBinding('Test Cases/TC5_Check_If_Exists_In_The_List_The_Item_With_Text', 'Test Cases/TC5_Check_If_Exists_In_The_List_The_Item_With_Text',  null)])

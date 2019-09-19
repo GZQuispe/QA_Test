@@ -16,9 +16,10 @@ public class ListOfItemsSection {
 	private static final TestObject BUTTON_DELETE_LAST_ITEM 	= findTestObject("Object Repository/HomePage/ListOfItemsSection/Button_Delete_Last")
 	private static final TestObject TEXT_ITEM_1	  				= findTestObject("Object Repository/HomePage/ListOfItemsSection/Text_Item_1")
 	private static final TestObject BUTTON_DELETE_CONFIRMATION  = findTestObject("Object Repository/HomePage/ItemDetailsSections/DeleteItemPopUp/Button_Yes_Delete_It")
-	
-	private TestObject imageItem = new TestObject("Image Item")
 
+	private TestObject genericImageItem = new TestObject("Image Item")
+	private TestObject genericTextItem  = new TestObject("Text Item")
+	
 	@Keyword
 	def verifyNewItemCreated(String filepath, String text){
 		assert true == imageIsVisible(filepath)
@@ -28,10 +29,10 @@ public class ListOfItemsSection {
 	def imageIsVisible(String filepath){
 		String filename = new Utils().getFilename(filepath)
 		String imageXpath = "//img[contains(@src,'" + filename + "')]"
-		imageItem  = new Utils().addXpathToTestObject(imageItem,imageXpath)
+		genericImageItem  = new Utils().addXpathToTestObject(genericImageItem,imageXpath)
 
-		return WebUI.waitForElementVisible(imageItem, GlobalVariable.DEFAULT_WAIT)
-	}	
+		return WebUI.waitForElementVisible(genericImageItem, GlobalVariable.DEFAULT_WAIT)
+	}
 
 	def textIsVisible(String text){
 		return 	WebUI.verifyTextPresent(text, false, FailureHandling.OPTIONAL)
@@ -42,22 +43,31 @@ public class ListOfItemsSection {
 		WebUI.click(BUTTON_EDIT_ITEM_1)
 		WebUI.takeScreenshot()
 	}
-	
+
 	@Keyword
 	def verifyItemIsUpdated(String text){
 		assert text == WebUI.getText(TEXT_ITEM_1)
 	}
-	
+
 	@Keyword
 	def deleteNewestItem(){
 		WebUI.click(BUTTON_DELETE_LAST_ITEM)
 		WebUI.click(BUTTON_DELETE_CONFIRMATION)
+		WebUI.verifyElementNotPresent(BUTTON_DELETE_CONFIRMATION, GlobalVariable.DEFAULT_WAIT)
 		WebUI.takeScreenshot()
 	}
-	
+
 	@Keyword
 	def verifyItemDeleted(String filepath, String text){
 		assert false == imageIsVisible(filepath)
 		assert false == textIsVisible(text)
+	}
+	
+	@Keyword
+	def verifyIfItemWithTextExists(String text){
+		String xpathItem = "//li[@ng-repeat='item in items']//*[text()='" + text + "']"
+		genericTextItem  = new Utils().addXpathToTestObject(genericTextItem,xpathItem)
+		
+		assert true == WebUI.waitForElementVisible(genericTextItem, GlobalVariable.DEFAULT_WAIT)
 	}
 }
