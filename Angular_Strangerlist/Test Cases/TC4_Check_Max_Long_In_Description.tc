@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fc433fc3-3523-4001-a13e-1897b1d3ce64</testCaseGuid>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at commodo nulla, sed dictum magna. Proin nunc est, commodo vitae urna quis, tempus volutpat nunc. Vestibulum vitae iaculis felis, et dapibus turpis. Cras sed bibendum enim. Vestibulum posuere quam mattis vulputate dignissim orci aliquam.'</defaultValue>
+      <description></description>
+      <id>818a2ed7-0f15-4b3c-84f7-4eca994ebc36</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
 </TestCaseEntity>

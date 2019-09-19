@@ -51,4 +51,9 @@ public class ItemDetailsSection {
 		WebUI.waitForElementNotPresent(BUTTON_UPDATE_ITEM, GlobalVariable.DEFAULT_WAIT)
 		WebUI.takeScreenshot()
 	}
+	
+	@Keyword
+	def verifyCreateItemButtonDisabled(){
+		assert true == WebUI.verifyElementHasAttribute(BUTTON_CREATE_ITEM, "disabled", 0)
+	}
 }

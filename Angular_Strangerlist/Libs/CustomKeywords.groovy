@@ -26,6 +26,10 @@ def static "homePage.ItemDetailsSection.clickUpdateItemButton"() {
     (new homePage.ItemDetailsSection()).clickUpdateItemButton()
 }
 
+def static "homePage.ItemDetailsSection.verifyCreateItemButtonDisabled"() {
+    (new homePage.ItemDetailsSection()).verifyCreateItemButtonDisabled()
+}
+
 def static "strangerList.HomePage.navigate"() {
     (new strangerList.HomePage()).navigate()
 }
