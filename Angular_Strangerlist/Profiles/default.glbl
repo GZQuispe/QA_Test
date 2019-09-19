@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://immense-hollows-74271.herokuapp.com/'</initValue>
+      <name>STRANGERLIST_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>DEFAULT_WAIT</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

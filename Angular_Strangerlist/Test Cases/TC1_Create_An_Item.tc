@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Create_An_Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>769bf60a-b067-406d-bbdc-cec71ff599a9</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\gquispe\\\\Documents\\\\Stensul\\\\creepy-cat.jpg'</defaultValue>
+      <description></description>
+      <id>14c776dc-630e-4cd0-822d-d5f340272965</id>
+      <masked>false</masked>
+      <name>itemImageFilePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'Creepy cat'</defaultValue>
+      <description></description>
+      <id>6b164c3e-6da5-492b-9367-8aa83d0e67e4</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+</TestCaseEntity>

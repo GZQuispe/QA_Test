@@ -9,6 +9,16 @@ import com.kms.katalon.core.main.TestCaseMain
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object STRANGERLIST_URL
+     
+    /**
+     * <p></p>
+     */
+    public static Object DEFAULT_WAIT
+     
 
     static {
         try {
@@ -16,6 +26,8 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+            STRANGERLIST_URL = selectedVariables['STRANGERLIST_URL']
+            DEFAULT_WAIT = selectedVariables['DEFAULT_WAIT']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

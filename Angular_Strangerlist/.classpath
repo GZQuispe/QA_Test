@@ -114,7 +114,6 @@
 	<classpathentry kind="lib" path="C:/Katalon/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/Katalon/plugins/ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar"/>
 	<classpathentry kind="lib" path="C:/Katalon/plugins/com.kms.katalon.preferences_1.0.0.201907170724.jar"/>
-	<classpathentry kind="lib" path="C:/Katalon/configuration/plugin/install/5769/1.0.1/ExcelKeywords.jar"/>
 	<classpathentry kind="lib" path="C:/Katalon/configuration/plugin/install/20195/1.0.5/katalon-studio-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
