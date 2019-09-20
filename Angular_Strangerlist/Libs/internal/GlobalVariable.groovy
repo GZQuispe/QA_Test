@@ -19,6 +19,11 @@ public class GlobalVariable {
      */
     public static Object DEFAULT_WAIT
      
+    /**
+     * <p></p>
+     */
+    public static Object DIRECTORY_PATH
+     
 
     static {
         try {
@@ -28,6 +33,7 @@ public class GlobalVariable {
     
             STRANGERLIST_URL = selectedVariables['STRANGERLIST_URL']
             DEFAULT_WAIT = selectedVariables['DEFAULT_WAIT']
+            DIRECTORY_PATH = selectedVariables['DIRECTORY_PATH']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

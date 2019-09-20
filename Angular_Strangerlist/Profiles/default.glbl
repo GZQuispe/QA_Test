@@ -14,4 +14,9 @@
       <initValue>10</initValue>
       <name>DEFAULT_WAIT</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>DIRECTORY_PATH</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>cc128c4a-ec32-4ba7-b523-6db1cefe162b</testCaseGuid>
    <variable>
-      <defaultValue>'C:\\\\Users\\\\gquispe\\\\Documents\\\\Stensul\\\\creepy-cat.jpg'</defaultValue>
+      <defaultValue>'Data_Sets\\cat.jpg'</defaultValue>
       <description></description>
       <id>14c776dc-630e-4cd0-822d-d5f340272965</id>
       <masked>false</masked>

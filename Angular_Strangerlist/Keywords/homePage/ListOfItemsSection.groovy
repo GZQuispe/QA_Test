@@ -27,15 +27,21 @@ public class ListOfItemsSection {
 	}
 
 	def imageIsVisible(String filepath){
-		String filename = new Utils().getFilename(filepath)
-		String imageXpath = "//img[contains(@src,'" + filename + "')]"
-		genericImageItem  = new Utils().addXpathToTestObject(genericImageItem,imageXpath)
-
-		return WebUI.waitForElementVisible(genericImageItem, GlobalVariable.DEFAULT_WAIT)
+		genericImageItem  = new Utils().addImageContainsXpathToTestObject(genericImageItem, filepath)
+		return WebUI.waitForElementPresent(genericImageItem, GlobalVariable.DEFAULT_WAIT)
 	}
 
+	def imageNotVisible(String filepath){
+		genericImageItem  = new Utils().addImageContainsXpathToTestObject(genericImageItem, filepath)
+		return WebUI.waitForElementNotPresent(genericImageItem, GlobalVariable.DEFAULT_WAIT)
+	}
+	
 	def textIsVisible(String text){
 		return 	WebUI.verifyTextPresent(text, false, FailureHandling.OPTIONAL)
+	}
+	
+	def textIsNotVisible(String text){
+		return 	WebUI.verifyTextNotPresent(text, false, FailureHandling.OPTIONAL)
 	}
 
 	@Keyword
@@ -59,8 +65,8 @@ public class ListOfItemsSection {
 
 	@Keyword
 	def verifyItemDeleted(String filepath, String text){
-		assert false == imageIsVisible(filepath)
-		assert false == textIsVisible(text)
+		assert true == imageNotVisible(filepath)
+		assert true == textIsNotVisible(text)
 	}
 	
 	@Keyword

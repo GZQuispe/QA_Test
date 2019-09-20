@@ -1,6 +1,10 @@
+import com.kms.katalon.core.util.KeywordUtil
+
+import internal.GlobalVariable
+
 CustomKeywords.'strangerList.HomePage.navigate'()
 
-CustomKeywords.'homePage.ItemDetailsSection.attachImage'(itemImageFilePath)
+CustomKeywords.'homePage.ItemDetailsSection.attachImage'(GlobalVariable.DIRECTORY_PATH + itemImageFilePath)
 
 CustomKeywords.'homePage.ItemDetailsSection.enterText'(itemDescription)
 

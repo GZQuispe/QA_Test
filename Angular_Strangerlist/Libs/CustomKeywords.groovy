@@ -6,6 +6,10 @@
 import java.lang.String
 
 
+def static "helper.Utils.setDirectoryPath"() {
+    (new helper.Utils()).setDirectoryPath()
+}
+
 def static "homePage.ListOfItemsSection.verifyNewItemCreated"(
     	String filepath	
      , 	String text	) {
