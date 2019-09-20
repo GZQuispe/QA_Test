@@ -6,34 +6,6 @@
 import java.lang.String
 
 
-def static "homePage.ItemDetailsSection.attachImage"(
-    	String filePath	) {
-    (new homePage.ItemDetailsSection()).attachImage(
-        	filePath)
-}
-
-def static "homePage.ItemDetailsSection.enterText"(
-    	String text	) {
-    (new homePage.ItemDetailsSection()).enterText(
-        	text)
-}
-
-def static "homePage.ItemDetailsSection.clickCreateItemButton"() {
-    (new homePage.ItemDetailsSection()).clickCreateItemButton()
-}
-
-def static "homePage.ItemDetailsSection.clickUpdateItemButton"() {
-    (new homePage.ItemDetailsSection()).clickUpdateItemButton()
-}
-
-def static "homePage.ItemDetailsSection.verifyCreateItemButtonDisabled"() {
-    (new homePage.ItemDetailsSection()).verifyCreateItemButtonDisabled()
-}
-
-def static "strangerList.HomePage.navigate"() {
-    (new strangerList.HomePage()).navigate()
-}
-
 def static "homePage.ListOfItemsSection.verifyNewItemCreated"(
     	String filepath	
      , 	String text	) {
@@ -68,4 +40,32 @@ def static "homePage.ListOfItemsSection.verifyIfItemWithTextExists"(
     	String text	) {
     (new homePage.ListOfItemsSection()).verifyIfItemWithTextExists(
         	text)
+}
+
+def static "homePage.ItemDetailsSection.attachImage"(
+    	String filePath	) {
+    (new homePage.ItemDetailsSection()).attachImage(
+        	filePath)
+}
+
+def static "homePage.ItemDetailsSection.enterText"(
+    	String text	) {
+    (new homePage.ItemDetailsSection()).enterText(
+        	text)
+}
+
+def static "homePage.ItemDetailsSection.clickCreateItemButton"() {
+    (new homePage.ItemDetailsSection()).clickCreateItemButton()
+}
+
+def static "homePage.ItemDetailsSection.clickUpdateItemButton"() {
+    (new homePage.ItemDetailsSection()).clickUpdateItemButton()
+}
+
+def static "homePage.ItemDetailsSection.verifyCreateItemButtonDisabled"() {
+    (new homePage.ItemDetailsSection()).verifyCreateItemButtonDisabled()
+}
+
+def static "strangerList.HomePage.navigate"() {
+    (new strangerList.HomePage()).navigate()
 }

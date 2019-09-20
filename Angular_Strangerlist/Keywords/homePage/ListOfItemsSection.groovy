@@ -53,7 +53,7 @@ public class ListOfItemsSection {
 	def deleteNewestItem(){
 		WebUI.click(BUTTON_DELETE_LAST_ITEM)
 		WebUI.click(BUTTON_DELETE_CONFIRMATION)
-		WebUI.verifyElementNotPresent(BUTTON_DELETE_CONFIRMATION, GlobalVariable.DEFAULT_WAIT)
+		WebUI.delay(1)
 		WebUI.takeScreenshot()
 	}
 
