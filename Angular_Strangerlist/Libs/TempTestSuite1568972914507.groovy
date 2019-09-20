@@ -28,7 +28,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190920_064253\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Documents\\Stensul\\QA_Test\\Angular_Strangerlist\\Reports\\QA_Test\\20190920_064829\\execution.properties")
 
 TestCaseMain.beforeStart()
 

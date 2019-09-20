@@ -15,16 +15,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC1_Create_An_Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1ec067ec-7fdf-4907-a38f-28d74f6ad0cf</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TC1</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1ec067ec-7fdf-4907-a38f-28d74f6ad0cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemImageFilePath</value>
          <variableId>14c776dc-630e-4cd0-822d-d5f340272965</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1ec067ec-7fdf-4907-a38f-28d74f6ad0cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>6b164c3e-6da5-492b-9367-8aa83d0e67e4</variableId>
       </variableLink>
    </testCaseLink>
@@ -33,10 +42,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC2_Edit_Another_Existing_Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>78daf2d2-9801-478c-b1ea-cfbcbf19f4e1</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TC2</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>78daf2d2-9801-478c-b1ea-cfbcbf19f4e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newDescription</value>
          <variableId>afc290ca-5627-4a04-80cf-bc8494071e6f</variableId>
       </variableLink>
    </testCaseLink>
@@ -45,16 +63,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC3_Delete_The_Item_Created</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a54cef50-cf07-495e-81e7-dc49b446f4dc</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TC3</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>a54cef50-cf07-495e-81e7-dc49b446f4dc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemImageFilePath</value>
          <variableId>14c776dc-630e-4cd0-822d-d5f340272965</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>a54cef50-cf07-495e-81e7-dc49b446f4dc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>6b164c3e-6da5-492b-9367-8aa83d0e67e4</variableId>
       </variableLink>
    </testCaseLink>
@@ -63,10 +90,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC4_Check_Max_Long_In_Description</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c4935081-a173-4d67-98db-62486162e46b</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TC4</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c4935081-a173-4d67-98db-62486162e46b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>818a2ed7-0f15-4b3c-84f7-4eca994ebc36</variableId>
       </variableLink>
    </testCaseLink>
@@ -75,10 +111,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC5_Check_If_Exists_In_The_List_The_Item_With_Text</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>697e404d-f87d-46a6-89d5-78cd824e557d</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TC5</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>697e404d-f87d-46a6-89d5-78cd824e557d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>b47fa502-e2cd-4c46-a820-34aa21762e54</variableId>
       </variableLink>
    </testCaseLink>

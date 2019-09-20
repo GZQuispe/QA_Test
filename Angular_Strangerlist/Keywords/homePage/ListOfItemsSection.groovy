@@ -74,6 +74,6 @@ public class ListOfItemsSection {
 		String xpathItem = "//li[@ng-repeat='item in items']//*[text()='" + text + "']"
 		genericTextItem  = new Utils().addXpathToTestObject(genericTextItem,xpathItem)
 		
-		assert true == WebUI.waitForElementVisible(genericTextItem, GlobalVariable.DEFAULT_WAIT)
+		assert true == WebUI.waitForElementVisible(genericTextItem, GlobalVariable.DEFAULT_WAIT,FailureHandling.OPTIONAL)
 	}
 }
